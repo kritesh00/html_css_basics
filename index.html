@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer{
+        display:flex;
+        justify-content: center;
+        width:100%;
+        background-color:white;
+        height:4.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="logo">
+            K
+        </div>
+        <h1>Kritesh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+      <main>
+        <div style="display:flex; gap: 1rem;">
+        <section>
+            <h2>Enter details</h2>
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder = "your name" name="username" required>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder = "yourmail@gmail.com" name="useremail" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder = "*************" name="password" required>
+
+                <button type = "submit">Submit</button>
+            </form>
+        </section>
+        <aside>
+            <div style="display: flex; gap: 5rem;">
+                <div>
+                    <h2>Ordered List</h2>
+                    <ol>
+                        <li>Content 1</li>
+                        <li>Content 2</li>
+                        <li>Content 3</li>
+                        <li>Content 4</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Description List</h2>
+                    <dl>
+                        <dt>Name:</dt>
+                        <dd>Kritesh Bhattarai</dd>
+
+                        <dt>Post:</dt>
+                        <dd>Student</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <h1>Table</h1>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+        </tr>
+
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+        </tr>
+    </tfoot>
+</table>
+
+        </aside>
+        </div>
+
+        <section class="box_model">
+            <h1>CSS box model</h1>
+            
+            <div class="box">
+                Text
+            </div>
+        </section>
+
+        <section>
+            <h1>Bootstrap yet to added</h1>
+            <div>
+            <label for="example0" >Email address</label>
+            <input type="email"  placeholder="name@example.com" style = "height: 3rem; border: 1px solid rgb(122, 121, 121)">
+            </div>
+            <div >
+            <label for="example1" >Example textarea</label>
+            <textarea  rows="8" style = "border: 1px solid rgb(122, 121, 121)"></textarea>
+            </div>
+        </section>
+    </main>
+       <footer>
+        <h2>Copyright © 2024 Kritesh</h2>
+    </footer>
+</body>
+</html>
