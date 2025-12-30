@@ -65,7 +65,6 @@ const show_data = document.querySelector(".show_data")
 const transcript = document.querySelector("aside")
 let i = parseInt(localStorage.getItem("counter")) || 0  
 let counter = i
-  
 
 
 
@@ -83,12 +82,22 @@ const description_list = (user_obj) => {
                     </dl>
     
     `}
+
     
 form.addEventListener("submit", function (e) {
   e.preventDefault();
+    const roll = Number(form.roll.value);
+
+ 
+  if (roll <= 0) {
+    alert("Roll number must be a positive number");
+    
+    return;
+  }
+
 const user_obj = {
     data_name: form.name.value,
-    data_roll: form.roll.value,
+    data_roll: roll,
     data_address: form.address.value,
   }
  localStorage.setItem(`user${counter}`,JSON.stringify(user_obj))
