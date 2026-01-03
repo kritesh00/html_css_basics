@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer{
+        display:flex;
+        justify-content: center;
+        width:100%;
+        background-color:white;
+        height:4.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container" >
+        <div class="logo">
+            K
+        </div>
+        <h1>Kritesh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+      <main>
+        <div style="display:flex; gap: 1rem;">
+        <section>
+            <h2>Enter details</h2>
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder = "your name" name="username" required>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder = "yourmail@gmail.com" name="useremail" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder = "*************" name="password" required>
+
+                <button type = "submit">Submit</button>
+            </form>
+        </section>
+        <aside>
+            <div style="display: flex; gap: 5rem;">
+                <div>
+                    <h2>Ordered List</h2>
+                    <ol>
+                        <li>Content 1</li>
+                        <li>Content 2</li>
+                        <li>Content 3</li>
+                        <li>Content 4</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Description List</h2>
+                    <dl>
+                        <dt>Name:</dt>
+                        <dd>Kritesh Bhattarai</dd>
+
+                        <dt>Post:</dt>
+                        <dd>Student</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <h1>Table</h1>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, cell 1</td>
+            <td>Row 1, cell 2</td>
+        </tr>
+
+        <tr>
+            <td>Row 2, cell 1</td>
+            <td>Row 2, cell 2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+        </tr>
+    </tfoot>
+</table>
+
+        </aside>
+        </div>
+
+        <section class="box_model">
+            <h1>CSS box model</h1>
+            
+            <div class="box">
+                Text
+            </div>
+        </section>
+
+        <section>
+            <h1>Bootstrap</h1>
+            <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+        </section>
+        <section>
+            <h1>Multimedia</h1>
+            <article>
+                <img src="./assets/IMG-db51863d381568025e0a4b7439fdbe1b-V.jpg" alt="image" >
+                <video  autoplay >
+                    <source src="./assets/Video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+            </article>
+        </section>
+    </main>
+       <footer>
+        <h2>Copyright © 2024 Kritesh</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
