@@ -53,5 +53,4 @@ $('#calculate').on('click', function() {
 }
 })
 
-
 })

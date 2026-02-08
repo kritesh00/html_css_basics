@@ -1,1 +1,4 @@
 assets
+myvenv/
+*.pyc
+__pycache__/
